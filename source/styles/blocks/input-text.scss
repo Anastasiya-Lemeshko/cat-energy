@@ -26,6 +26,7 @@
     mask-image: var(--mask-image);
     mask-repeat: no-repeat;
     background-color: #000000;
+    transition: background-color 0.3s;
   }
 }
 
@@ -69,6 +70,8 @@
   font-size: 16px;
   text-transform: uppercase;
   border: 1px solid #e7e7e7;
+  outline: 2px solid $transparent;
+  transition: border 0.3s, outline 0.3s;
   cursor: pointer;
 
   &:focus-visible {

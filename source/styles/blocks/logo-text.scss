@@ -5,13 +5,14 @@
 .logo-text__image {
   display: block;
   margin: auto;
+  transition: opacity 0.3s;
 
   &:focus-visible {
-    opacity: 0.8;
+    opacity: 0.5;
   }
 
   &:hover {
-    opacity: 0.8;
+    opacity: 0.5;
   }
 
   &:active {

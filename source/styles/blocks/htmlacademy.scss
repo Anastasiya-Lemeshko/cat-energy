@@ -5,6 +5,7 @@
   font-size: 16px;
   color: #444444;
   text-decoration: none;
+  transition: opacity 0.3s;
 
   &:active {
     opacity: 0.3;
@@ -26,6 +27,7 @@
   width: 27px;
   height: 34px;
   fill: #666666;
+  transition: fill 0.3s;
 }
 
 .htmlacademy__link:focus-visible .htmlacademy__logo,

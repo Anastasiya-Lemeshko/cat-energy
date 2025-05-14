@@ -103,6 +103,7 @@
 
   &:focus-visible,
   &:hover {
+    outline: none;
     transform: scale(1.05);
   }
 
@@ -122,17 +123,20 @@
   display: block;
   text-decoration: none;
   border-radius: 1px;
+  outline: 2px solid $transparent;
+  transition: opacity 0.3s, outline 0.3s;
 
   &:focus-visible {
     outline: 2px solid #000000;
-  }
-
-  &:hover {
     opacity: 0.7;
   }
 
-  &:active {
+  &:hover {
     opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.3;
   }
 }
 

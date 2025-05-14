@@ -98,13 +98,14 @@
   text-decoration: none;
   text-align: center;
   color: #000000;
+  transition: opacity 0.3s;
 
   &:focus-visible {
-    opacity: 0.8;
+    opacity: 0.5;
   }
 
   &:hover {
-    opacity: 0.8;
+    opacity: 0.5;
   }
 
   &:active {
